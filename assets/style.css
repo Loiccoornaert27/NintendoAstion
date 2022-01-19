@@ -23,6 +23,14 @@
     color:white;
 }
 
+.navbar_content li :hover {
+    text-decoration: underline white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
 .side_navbar {
     background-color: red;
     display: flex;
@@ -36,4 +44,5 @@
     display: flex;
     flex-flow: column;
     justify-content: space-around;
+    color: white;
 }
