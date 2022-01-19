@@ -105,12 +105,13 @@ a:link {
     padding:10px;
     display: flex;
     flex-direction: row;
+    border:solid gray 1px;
 }
 
 .imgarticle {
     width: 8em;
     height: 8em;
-    float: left;
+
 }
 
 .contenu_article {
