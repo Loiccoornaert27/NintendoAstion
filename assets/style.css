@@ -23,7 +23,7 @@
     color: white;
 }
 
-.text_connexion:hover {
+.navbar_content li :hover {
     text-decoration: underline white;
 }
 
