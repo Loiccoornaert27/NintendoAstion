@@ -83,3 +83,11 @@ a:link {
     position:relative;
     padding-top:200px;
 }
+
+/*Gestion CSS de la news bar*/
+.newsbar{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
