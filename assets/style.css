@@ -28,6 +28,8 @@
 
 .navbar_content li svg{
     margin:auto;
+    display: flex;
+    justify-content: center;
 }
 
 .text_connexion {
