@@ -1,7 +1,7 @@
 /* Gestion du css de la navbar header */
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .main-navbar {
@@ -27,18 +27,18 @@
     justify-content: space-around;
 }
 
-.navbar_content li{
+.navbar_content li {
     margin: 10px;
 }
 
-.navbar_content li svg{
-    margin:auto;
+.navbar_content li svg {
+    margin: auto;
     display: flex;
     justify-content: center;
 }
 
 .text_connexion {
-    color:white;
+    color: white;
 }
 
 .navbar_content li :hover {
@@ -79,15 +79,39 @@ a:link {
     background-color: brown;
 }
 
-.back_to_top{
-    position:relative;
-    padding-top:200px;
+.back_to_top {
+    position: relative;
+    padding-top: 200px;
 }
 
 /*Gestion CSS de la news bar*/
-.newsbar{
-    position:absolute;
+.newsbar {
+    position: absolute;
+    right: 0;
+    width: 20em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.articles {
+    list-style-type: none;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgarticle {
+    width: 8em;
+    height: 8em;
+    float: left;
+}
+
+.contenu_article {
+    display: flex;
+    flex-direction: column;
+
 }
