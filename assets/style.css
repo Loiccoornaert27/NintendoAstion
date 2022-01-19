@@ -53,8 +53,8 @@ a:link {
 .side_navbar {
     background-color: brown;
     position: absolute;
-    margin-left: 0;
-    padding-left: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .side_navbar_content {
@@ -77,4 +77,9 @@ a:link {
 
 .side_navbar_content :hover {
     background-color: brown;
+}
+
+.back_to_top{
+    position:relative;
+    padding-top:200px;
 }
