@@ -19,6 +19,14 @@
     justify-content: space-around;
 }
 
+.navbar_content li{
+    margin: 10px;
+}
+
+.navbar_content li svg{
+    margin:auto;
+}
+
 .text_connexion {
     color:white;
 }
