@@ -1,4 +1,9 @@
 /* Gestion du css de la navbar header */
+*{
+    margin:0;
+    padding:0;
+}
+
 .main-navbar {
     background-color: red;
     display: flex;
@@ -46,19 +51,30 @@ a:link {
 
 /* Gestion CSS de la navbar side */
 .side_navbar {
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    position:fixed;
+    background-color: brown;
+    position: absolute;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .side_navbar_content {
     list-style-type: none;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .side_navbar_content li {
+    background-color: red;
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    border-top-right-radius: 1em;
+    border: solid black 1px;
+}
+
+.side_navbar_content :hover {
+    background-color: brown;
 }
