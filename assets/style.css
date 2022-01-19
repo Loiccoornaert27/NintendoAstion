@@ -22,3 +22,18 @@
 .text_connexion {
     color:white;
 }
+
+.side_navbar {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+}
+
+.side_navbar_content {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
