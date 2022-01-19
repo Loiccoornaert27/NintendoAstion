@@ -53,8 +53,10 @@ a:link {
 .side_navbar_content {
     list-style-type: none;
     color: white;
+}
+
+.side_navbar_content li {
     display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    color: white;
+    flex-direction: column;
+    margin: 10px;
 }
