@@ -2,7 +2,8 @@
     background-color: red;
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
+
 }
 
 .Home-logo {
@@ -10,8 +11,14 @@
     width: 8em;
 }
 
-.navbar_content{
+.navbar_content {
     list-style-type: none;
+    color: white;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.text_connexion {
+    color:white;
 }
