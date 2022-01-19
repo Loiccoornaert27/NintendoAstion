@@ -88,7 +88,7 @@ a:link {
 .newsbar {
     position: absolute;
     right: 0;
-    width: 20em;
+    width: 30em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -97,9 +97,11 @@ a:link {
 
 .articles {
     list-style-type: none;
+    padding:10px;
 }
 
 .article {
+    padding:10px;
     display: flex;
     flex-direction: row;
 }
@@ -113,5 +115,14 @@ a:link {
 .contenu_article {
     display: flex;
     flex-direction: column;
+}
 
+.titre_article :hover{
+    text-decoration: underline;
+}
+
+.info_article{
+    font-size: smaller;
+    color:gray;
+    margin-bottom: 5px;
 }
