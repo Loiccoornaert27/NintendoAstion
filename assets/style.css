@@ -20,5 +20,13 @@
 }
 
 .text_connexion {
-    color:white;
+    color: white;
+}
+
+.text_connexion:hover {
+    text-decoration: underline white;
+}
+
+a:link {
+    text-decoration: none;
 }
