@@ -6,8 +6,8 @@
 }
 
 .main-navbar {
-    position:fixed;
-    width:100%;
+    position: fixed;
+    width: 100%;
     z-index: 10;
     background-color: red;
     display: flex;
@@ -92,13 +92,32 @@ a:link {
 
 .back_to_top {
     position: relative;
-    padding-top: 200px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.arrow_div {
+    z-index:10;
+    padding: 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+    background-color: white;
+}
+
+.arrow_div svg {
+    z-index: 10;
+    width: 12px;
+    height: 12px;
+    transform: rotate(180deg);
 }
 
 /*Gestion CSS de la news bar*/
 .newsbar {
     margin-top: 70px;
-    position:absolute;
+    position: absolute;
     right: 0;
     width: 30em;
     display: flex;
@@ -159,7 +178,7 @@ a:link {
     transform: translateY(-10px);
 }
 
-.portrait{
+.portrait {
     grid-row: span 2;
 }
 
