@@ -95,7 +95,7 @@ a:link {
 }
 .back_to_top {
     position: relative;
-    padding-top: 120px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
