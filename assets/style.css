@@ -216,3 +216,12 @@ figcaption{
     text-align: center;
     background-color: rgb(0,0,0,0.5);
 }
+
+footer{
+    margin-left: 85px;
+    width:66%;
+}
+
+.upper_foot{
+    background-color: red;
+}
