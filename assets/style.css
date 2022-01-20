@@ -185,3 +185,7 @@ a:link {
 .grille_dimg .paysage {
     grid-column: span 4;
 }
+
+.grille_dimg .fun{
+    grid-column: span 3;
+}
