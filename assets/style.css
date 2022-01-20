@@ -50,7 +50,7 @@ a:link {
     text-decoration: none;
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: row;
 }
@@ -137,6 +137,21 @@ a:link {
 
 .grille_dimg {
     margin-left: 5em;
+    width: 66%;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.grille_dimg img {
+    grid-column: span 2;
+    max-width: 99%;
+    max-height: 99%;
+}
+
+.portrait{
+    grid-row: span 2;
+}
+
+.grille_dimg .paysage {
+    grid-column: span 4;
 }
