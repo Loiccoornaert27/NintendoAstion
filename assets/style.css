@@ -90,9 +90,10 @@ a:link {
     background-color: brown;
 }
 
-.side_navbar_content li div{
+.side_navbar_content li div {
     text-align: center;
 }
+
 .back_to_top {
     position: relative;
     padding-top: 100px;
@@ -103,10 +104,10 @@ a:link {
 }
 
 .arrow_div {
-    z-index:10;
+    z-index: 10;
     padding: 8px;
     border-top-left-radius: 5px;
-    border-top-right-radius: 5px; 
+    border-top-right-radius: 5px;
     background-color: white;
 }
 
@@ -182,9 +183,10 @@ a:link {
     transform: translateY(-10px);
 }
 
-.grille_dimg figure{
-    transition: transform 0.5s; 
+.grille_dimg figure {
+    transition: transform 0.5s;
 }
+
 .grille_dimg figure:hover {
     transform: translateY(-10px);
 }
@@ -194,57 +196,110 @@ a:link {
     grid-row: span 2;
 }
 
-.portrait img{
-    height:100%
+.portrait img {
+    height: 100%
 }
 
 .paysage {
     grid-column: span 4;
 }
 
-.paysage img{
+.paysage img {
     height: 100%;
 }
 
-.grille_dimg .fun{
+.grille_dimg .fun {
     grid-column: span 3;
 }
 
-figcaption{
-    bottom:25px;
-    position:relative;
-    color:white;
+figcaption {
+    bottom: 25px;
+    position: relative;
+    color: white;
     text-align: center;
-    background-color: rgb(0,0,0,0.5);
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 /***** Gère l'affichage du footer ******/
-footer{
+footer {
     margin-left: 85px;
-    width:66%;
+    width: 66%;
+    color: white;
 }
 
-.upper_foot{
+.upper_foot {
     background-color: red;
-    color:white;
     display: flex;
     flex-direction: row;
     text-decoration: underline;
     justify-content: flex-start;
 }
 
-.indication_pays{
+.indication_pays {
     background-color: brown;
     margin-left: 2em;
-    height:20px;
+    height: 20px;
 }
 
-#choix{
+#choix {
     background-color: brown;
-    color:white;
+    color: white;
     text-decoration: underline;
 }
 
-.lower_foot{
+
+.bottom_arrow_div {
+    z-index: 10;
+    padding: 8px;
+    height:12px;
+    position:relative;
+    margin-left:61%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_arrow_div svg {
+    z-index: 10;
+    width: 12px;
+    height: 12px;
+    transform: rotate(180deg);
+}
+
+.mid_foot{
     background-color: brown;
+    padding: 15px;
+    font-size:medium;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mid_foot p:hover{
+    text-decoration: underline;
+}
+
+.lower_foot {
+    background-color: brown;
+    padding: 15px;
+    font-size: smaller;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.lower_foot p:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    background-color: brown ;
+    color:white;
+    font-size: smaller;
+    display: flex;
+    justify-content: flex-end;
 }
