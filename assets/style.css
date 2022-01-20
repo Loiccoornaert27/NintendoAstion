@@ -50,10 +50,16 @@ a:link {
     text-decoration: none;
 }
 
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
 /* Gestion CSS de la navbar side */
 .side_navbar {
     background-color: brown;
     position: absolute;
+    width: 5em;
     display: flex;
     flex-direction: column;
 }
@@ -130,24 +136,7 @@ a:link {
 }
 
 .grille_dimg {
+    margin-left: 5em;
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    grid-template-areas: "left middle right"
-        " left bottom bottom";
-}
-
-#page > .left_pic{
-    grid-area: left;
-}
-
-#page > .mid_pic{
-    grid-area: middle;
-}
-
-#page > .right_pic{
-    grid-area:right;
-}
-
-#page > .bottom_pic{
-    grid-area: bottom;
 }
