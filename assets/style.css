@@ -98,14 +98,14 @@ a:link {
 
 .articles {
     list-style-type: none;
-    padding:10px;
+    padding: 10px;
 }
 
 .article {
-    padding:10px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
-    border:solid gray 1px;
+    border: solid gray 1px;
 }
 
 .imgarticle {
@@ -119,12 +119,35 @@ a:link {
     flex-direction: column;
 }
 
-.titre_article :hover{
+.titre_article :hover {
     text-decoration: underline;
 }
 
-.info_article{
+.info_article {
     font-size: smaller;
-    color:gray;
+    color: gray;
     margin-bottom: 5px;
+}
+
+.grille_dimg {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-areas: "left middle right"
+        " left bottom bottom";
+}
+
+#page > .left_pic{
+    grid-area: left;
+}
+
+#page > .mid_pic{
+    grid-area: middle;
+}
+
+#page > .right_pic{
+    grid-area:right;
+}
+
+#page > .bottom_pic{
+    grid-area: bottom;
 }
