@@ -164,7 +164,7 @@ a:link {
 
 .grille_dimg {
     margin-top: 85px;
-    margin-left: 5em;
+    margin-left: 85px;
     width: 66%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -210,7 +210,7 @@ a:link {
 }
 
 figcaption{
-    bottom:20px;
+    bottom:25px;
     position:relative;
     color:white;
     text-align: center;
