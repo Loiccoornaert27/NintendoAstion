@@ -90,6 +90,9 @@ a:link {
     background-color: brown;
 }
 
+.side_navbar_content li div{
+    text-align: center;
+}
 .back_to_top {
     position: relative;
     padding-top: 120px;
