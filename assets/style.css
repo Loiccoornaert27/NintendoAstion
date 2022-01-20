@@ -137,6 +137,7 @@ a:link {
 
 .grille_dimg {
     margin-left: 5em;
+    margin-top: 15px;
     width: 66%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -146,6 +147,11 @@ a:link {
     grid-column: span 2;
     max-width: 99%;
     max-height: 99%;
+    transition: transform 0.5s;
+}
+
+.grille_dimg img:hover {
+    transform: translateY(-10px);
 }
 
 .portrait{
