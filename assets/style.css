@@ -6,6 +6,8 @@
 }
 
 .main-navbar {
+    position:fixed;
+    width:100%;
     background-color: red;
     display: flex;
     flex-direction: row;
@@ -50,15 +52,16 @@ a:link {
     text-decoration: none;
 }
 
-.main {
+.maindiv {
     display: flex;
     flex-direction: row;
 }
 
 /* Gestion CSS de la navbar side */
 .side_navbar {
+    margin-top: 70px;
     background-color: brown;
-    position: absolute;
+    position: fixed;
     width: 5em;
     display: flex;
     flex-direction: column;
@@ -93,7 +96,8 @@ a:link {
 
 /*Gestion CSS de la news bar*/
 .newsbar {
-    position: absolute;
+    margin-top: 70px;
+    position:absolute;
     right: 0;
     width: 30em;
     display: flex;
@@ -136,8 +140,8 @@ a:link {
 }
 
 .grille_dimg {
+    margin-top: 85px;
     margin-left: 5em;
-    margin-top: 15px;
     width: 66%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
